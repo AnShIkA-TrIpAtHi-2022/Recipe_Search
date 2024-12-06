@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Great Vibes' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav>
+        <h2>Recipe Search</h2>
+        <div class="container">
+            <input id="inp" type="text" placeholder="Search recipes...">
+        </div>
+    </nav>
+    <div id="recipes"></div>
+    <div id="recipeModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3 id="modalTitle"></h3>
+            <img id="modalImage" src="" alt="">
+            <h4>Ingredients</h4>
+            <ul id="modalIngredients"></ul>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <div class="logo">
+                <h2>Recipe Search</h2>
+            </div>
+            <div class="social-icons">
+                <a href="#" target="_blank"><i class="fa fa-facebook-f"></i></a>
+                <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+            </div>
+        </div>
+        <p>&copy; 2023 MyWebsite. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
